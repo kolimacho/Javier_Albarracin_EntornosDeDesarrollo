@@ -17,7 +17,15 @@ public class JAV_Circulo {
 		// TODO Auto-generated method stub
 
 	}
-
+	
+	// METODO CALCULAR AREA CIRCULO
+	public double calcularAreaCirculo(JAV_Circulo circulo1) {
+		double radio1 = circulo1.getRadio();
+		double area2 = radio1*3.14;
+		System.out.println("Area cuadrado: " + area2);
+		return area2;
+	}
+	
 	// GETTERS Y SETTERS
 	public String getColor() {
 		return Color;

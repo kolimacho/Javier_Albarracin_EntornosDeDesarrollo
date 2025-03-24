@@ -7,6 +7,15 @@ public class JAV_Rectangulo {
 	private double ladoB;
 	private String Color;
 	
+	// METODO CALCULAR AREA RECTANGULO
+	public double calcularAreaRectangulo(JAV_Rectangulo rectangulo1) {
+		double ladoA = rectangulo1.getLadoA();
+		double ladoB = rectangulo1.getLadoB();
+		double area1 = ladoA * ladoB;
+		System.out.println("Area rectangulo: " + area1);
+		return area1;
+	}
+	
 	// GETTERS AND SETTERS
 	public int getId() {
 		return Id;
