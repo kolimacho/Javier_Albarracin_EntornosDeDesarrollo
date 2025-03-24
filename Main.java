@@ -1,5 +1,13 @@
 package Clases;
 
+/**
+ * @author javier.albarracin
+ * @version 1.0
+ * Esta clase es la principal o main y ejecuta todo el codigo de las distintas clases
+ * el cual muestra los resultados del area de un circulo y un rectangulo y despues calcula
+ * su diferencia.
+ */
+
 public class Main {
 
 	// METODO MAIN

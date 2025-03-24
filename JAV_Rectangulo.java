@@ -1,7 +1,14 @@
 package Clases;
 
+/**
+ * @author javier.albarracin
+ * @version 1.0
+ * Esta clase calcula contiene los atributos del rectangulo y calcula el area de este con 
+ * el metodo calcularArea y tambien contiene los getters y setters.
+ */
+
 public class JAV_Rectangulo {
-	// ATRIBUTOS
+	// ATRIBUTOS CLASE RECTANGULO
 	private int Id;
 	private double ladoA;
 	private double ladoB;
@@ -57,7 +64,7 @@ public class JAV_Rectangulo {
 		this.ladoB = ladoB;
 		Color = color;
 	}
-
+	// METODO TO STRING
 	@Override
 	public String toString() {
 		return "JAV_Rectangulo [Id=" + Id + ", ladoA=" + ladoA + ", ladoB=" + ladoB + ", Color=" + Color + "]";

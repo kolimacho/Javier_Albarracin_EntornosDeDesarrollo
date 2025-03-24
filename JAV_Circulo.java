@@ -1,6 +1,14 @@
 package Clases;
 
+/**
+ * @author javier.albarracin
+ * @version 1.0
+ * Esta clase calcula contiene los atributos del circulo y calcula el area de este con 
+ * el metodo calcularArea y tambien contiene los getters y setters.
+ */
+
 public class JAV_Circulo {
+	// ATRIBUTOS CLASE CIRCULO
 	private int id;
 	private double Radio;
 	private String Color;
@@ -21,7 +29,8 @@ public class JAV_Circulo {
 	// METODO CALCULAR AREA CIRCULO
 	public double calcularAreaCirculo(JAV_Circulo circulo1) {
 		double radio1 = circulo1.getRadio();
-		double area2 = radio1*3.14;
+		// AGREGADO EL NUMERO MAGICO PI
+		double area2 = radio1*Math.PI;
 		System.out.println("Area cuadrado: " + area2);
 		return area2;
 	}
@@ -50,7 +59,8 @@ public class JAV_Circulo {
 	public void setId(int id) {
 		this.id = id;
 	}
-
+	
+	// METODO TO STRING
 	@Override
 	public String toString() {
 		return "JAV_Circulo [id=" + id + ", Radio=" + Radio + ", Color=" + Color + "]";
